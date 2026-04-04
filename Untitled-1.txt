@@ -1,0 +1,58 @@
+//Initial Setup (One-Time)
+   git config --global user.name "Thejeswini"
+   git config --global user.email "Thejeswini20@gmail.com"
+
+//Clone Repository
+   git init
+
+//Initialize new Repo
+  git clone <repository-url>
+
+//Repo status
+  git status
+
+//Add Files to Staging
+   git add filename
+//To add a specific filename
+   git add .
+
+//Commit Changes
+   git commit -m "your message"
+
+//view commit history
+   git log --oneline
+
+//Branching
+  git branch
+
+//List branches
+   git branch new-branch
+
+//Switch to branch
+   git switch new-branch
+
+// Merge Branches
+   git merge branch-name
+
+// Connect to Remote Repository
+   git remote add origin <repository-url>
+   git remote -v
+
+// Push Code to Remote
+   git push -u origin main
+
+// Push code for the first time
+   git push
+
+// Fetch Changes
+   git pull origin main
+   git fetch
+
+// Undo Changes
+   git restore filename
+
+// Discard changes in a file
+   git reset HEAD filename
+
+//  Delete Branch
+   git branch -d branch-name
